@@ -1,0 +1,12 @@
+{
+  "name": "flat-viewer",
+  "version": "0.0.0",
+  "scripts": {
+    "g": "git add . && git commit -m \"first commit\" && git push -u origin main -f",
+    "su": "surge publish ./dist --domain https://o6o.surge.sh",
+    "dev": "vite",
+    "t": "nodemon test.js",
+    "build": "vite build",
+    "serve": "vite preview"
+  }
+}
